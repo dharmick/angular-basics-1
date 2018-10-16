@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <h1>Table of Employees</h1>
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>BIRTHDAY</th>
+        <th>SALARY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.id}}</td>
+        <td>{{ employee.name | uppercase}}</td>
+        <td>{{ employee.birthday | date}}</td>
+        <td>{{ employee.salary | currency:'INR'}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
