@@ -1,6 +1,8 @@
-# Task1
+# Using JSON in Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+This project shows the use of bootstrap, pipes and services (for json file) in Angular
+
+Generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
 ## Development server
 
